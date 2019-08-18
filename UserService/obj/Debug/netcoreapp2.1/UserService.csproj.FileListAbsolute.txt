@@ -1,0 +1,14 @@
+C:\Users\tns_b\source\repos\UserService\UserService\bin\Debug\netcoreapp2.1\UserService.deps.json
+C:\Users\tns_b\source\repos\UserService\UserService\bin\Debug\netcoreapp2.1\UserService.runtimeconfig.json
+C:\Users\tns_b\source\repos\UserService\UserService\bin\Debug\netcoreapp2.1\UserService.runtimeconfig.dev.json
+C:\Users\tns_b\source\repos\UserService\UserService\bin\Debug\netcoreapp2.1\UserService.dll
+C:\Users\tns_b\source\repos\UserService\UserService\bin\Debug\netcoreapp2.1\UserService.pdb
+C:\Users\tns_b\source\repos\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.csprojAssemblyReference.cache
+C:\Users\tns_b\source\repos\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.csproj.CoreCompileInputs.cache
+C:\Users\tns_b\source\repos\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.RazorAssemblyInfo.cache
+C:\Users\tns_b\source\repos\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.RazorAssemblyInfo.cs
+C:\Users\tns_b\source\repos\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.AssemblyInfoInputs.cache
+C:\Users\tns_b\source\repos\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.AssemblyInfo.cs
+C:\Users\tns_b\source\repos\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.RazorTargetAssemblyInfo.cache
+C:\Users\tns_b\source\repos\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.dll
+C:\Users\tns_b\source\repos\UserService\UserService\obj\Debug\netcoreapp2.1\UserService.pdb
