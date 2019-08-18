@@ -38,14 +38,14 @@ namespace UserService.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<User>> GetUser(long id)
         {
-            var todoItem = await this.dbContext.Users.FindAsync(id);
+            var user = await this.dbContext.Users.FindAsync(id);
 
-            if (todoItem == null)
+            if (user == null)
             {
                 return NotFound();
             }
 
-            return todoItem;
+            return user;
         }
 
         // POST api/<controller>

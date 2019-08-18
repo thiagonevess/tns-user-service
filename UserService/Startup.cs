@@ -12,6 +12,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using UserService.Models;
+using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace UserService
 {
@@ -35,6 +37,11 @@ namespace UserService
             }));
             services.AddDbContext<UserDbContext>(opt => opt.UseInMemoryDatabase("UserDatabase"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new Info { Title = "tns-user-service", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +55,15 @@ namespace UserService
             {
                 app.UseHsts();
             }
+
+            //Ativa o Swagger
+            app.UseSwagger();
+
+            // Ativa o Swagger UI
+            app.UseSwaggerUI(opt =>
+            {
+                opt.SwaggerEndpoint("/swagger/v1/swagger.json", "tns-user-service V1");
+            });
 
             app.UseCors("MyPolicy");
 
